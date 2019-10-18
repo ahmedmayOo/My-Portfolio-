@@ -1,0 +1,97 @@
+
+ /* Navbar Animation */
+@keyframes menu {
+    0% {opacity: 0}
+    10% {opacity: 0}
+    20% {opacity: 0}
+    30% {opacity: 0}
+    40% {opacity: 0}
+    50% {
+        opacity: 0;
+        margin-top: 5px;
+     }
+ 
+    60% {
+        opacity: 0.1;
+        margin-top: 10px;
+     }
+ 
+    70% {
+        opacity: 0.3;
+        margin-top: 15px;
+     }
+ 
+    80% {
+        opacity: 0.5;
+        margin-top: 20px;
+     }
+ 
+    90% {
+        opacity: 0.9;
+        margin-top: 22px;
+     }
+ 
+    100% {
+        opacity: 1;
+        margin-top: 25px;
+     }
+ }
+
+
+ @keyframes animate {
+    0% {
+        background-position: left 200px top 800px;
+      }
+    
+    30% {
+      background-position: left 200px top 800px;
+    }
+
+    
+  }
+
+  @keyframes water {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+
+    95% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+     
+     
+     
+}
+
+@keyframes shadow {
+  0% {
+      transform:
+      translateY(-400px)
+      skewY(0deg);
+  }
+
+  50% {
+      transform:
+      translateY(2200px)
+      skewY(50deg);
+      
+  }
+  100% {
+      transform:
+      translateY(-400px)
+      skewY(0deg);
+      box-shadow: 0 0px 0px transparent; 
+  }
+}
+
+@keyframes moveForwardsBackGround {
+    to {
+        background-position: 0 0, 0 0, 600px 0;
+    }
+}
